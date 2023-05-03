@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-05-03T15:45:36.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="d0N7w7laZ_kinhIzWJt_" version="21.2.7" type="device">
+  <diagram name="페이지-1" id="F_3clLwZlrBzvY_FgxwP">
+    <mxGraphModel dx="366" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-1" target="JvUqDuEyj3VPddwPbBbQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-1" target="JvUqDuEyj3VPddwPbBbQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-1" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-2" value="MBTI" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=30;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="820" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-8" target="JvUqDuEyj3VPddwPbBbQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-8" value="인증하기" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-18" value="&amp;lt;&amp;lt; extend &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-9" target="JvUqDuEyj3VPddwPbBbQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-9" value="인증 실패" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-19" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-10" target="JvUqDuEyj3VPddwPbBbQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-34" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-10" target="JvUqDuEyj3VPddwPbBbQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-10" value="MBTI Test" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-20" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-11" target="JvUqDuEyj3VPddwPbBbQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-35" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-11" target="JvUqDuEyj3VPddwPbBbQ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-11" value="MBTI 통계?" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-25" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-21" target="JvUqDuEyj3VPddwPbBbQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-36" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-21" target="JvUqDuEyj3VPddwPbBbQ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-21" value="MBTI 순위 정렬" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-26" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-22" target="JvUqDuEyj3VPddwPbBbQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-22" target="JvUqDuEyj3VPddwPbBbQ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-22" value="MBTI 성향별 통계" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-29" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-27" value="문제 페이지 표시" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-30" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="JvUqDuEyj3VPddwPbBbQ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-28" value="페이지 이전 / 다음 &lt;br&gt;전환" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-31" value="DB" style="html=1;dropTarget=0;whiteSpace=wrap;labelBackgroundColor=default;strokeColor=inherit;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="167.5" width="180" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="JvUqDuEyj3VPddwPbBbQ-32" value="" style="shape=module;jettyWidth=8;jettyHeight=4;labelBackgroundColor=default;strokeColor=inherit;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="JvUqDuEyj3VPddwPbBbQ-31">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
