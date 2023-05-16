@@ -1,7 +1,8 @@
-package project.mbti.domain;
+package project.mbti.domain.Statistics;
 
 import lombok.Getter;
 import lombok.Setter;
+import project.mbti.domain.Input;
 
 import javax.persistence.*;
 
@@ -13,7 +14,7 @@ import static javax.persistence.FetchType.LAZY;
 @Entity
 @Table(name = "Mbti_Statistics")
 @Getter @Setter
-public class MbtiStatistics extends Input{
+public class MbtiStatistics extends Input {
 
     @Id @GeneratedValue
     @Column(name = "mbtiStatistics_id")

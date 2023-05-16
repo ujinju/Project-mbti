@@ -3,11 +3,15 @@ package project.mbti.domain;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import project.mbti.domain.InputButton.mbtiEI;
+import project.mbti.domain.InputButton.mbtiNS;
+import project.mbti.domain.InputButton.mbtiPJ;
+import project.mbti.domain.InputButton.mbtiTF;
+import project.mbti.domain.Statistics.MbtiStatistics;
+
 import static javax.persistence.FetchType.LAZY;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 @Getter @Setter

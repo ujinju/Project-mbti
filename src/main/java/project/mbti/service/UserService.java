@@ -24,7 +24,7 @@ public class UserService {
     }
 
     private void validateDuplicateUser(User user){
-        List<User> findUsers = userRepository.findByStudentNum(user.getStudentNum());
+        List<User> findUsers = userRepository.findByStudentId(user.getStudentId());
         if(!findUsers.isEmpty()){
             throw new IllegalStateException("이미 MBTI를 입력하였습니다.");
         }

@@ -19,9 +19,19 @@ public class User {
     @Column(name = "user_id")
     private Long id;
 
-    private int studentNum;
+    private int studentId;
 
-    private String subject;
+    private String major;
+
+    private int age;
+
+    private String gender;
+
+    private Long loginByKakao;
+
+    private Long loginByNaver;
+
+    private Long loginByGoogle;
 
     @OneToMany(mappedBy = "user")
     private List<Input> input = new ArrayList<>();

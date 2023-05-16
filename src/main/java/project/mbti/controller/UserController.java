@@ -34,8 +34,8 @@ public class UserController {
         Login login = new Login(form.getPhoneNum(), form.getPassword(), form.getEmail(), form.getAuthId());
 
         User user = new User();
-        user.setStudentNum(form.getStudentNum());
-        user.setSubject(form.getSubject());
+        user.setStudentId(form.getStudentId());
+        user.setMajor(form.getMajor());
 
         userService.login(user);
         return "redirect:/";

@@ -26,9 +26,9 @@ public class UserRepository {
                 .getResultList();
     }
 
-    public List<User> findByStudentNum(int studentNum){
-        return em.createQuery("select u from User u where u.studentNum = :studentNum", User.class)
-                .setParameter("studentNum", studentNum)
+    public List<User> findByStudentId(int studentId){
+        return em.createQuery("select u from User u where u.studentId = :studentId", User.class)
+                .setParameter("studentId", studentId)
                 .getResultList();
     }
 }

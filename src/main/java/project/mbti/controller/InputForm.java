@@ -1,9 +1,9 @@
 package project.mbti.controller;
 
-import project.mbti.domain.mbtiEI;
-import project.mbti.domain.mbtiNS;
-import project.mbti.domain.mbtiPJ;
-import project.mbti.domain.mbtiTF;
+import project.mbti.domain.InputButton.mbtiEI;
+import project.mbti.domain.InputButton.mbtiNS;
+import project.mbti.domain.InputButton.mbtiPJ;
+import project.mbti.domain.InputButton.mbtiTF;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
