@@ -44,6 +44,18 @@ public class Input {
     @Enumerated(EnumType.STRING)
     private mbtiPJ pj;
 
+
+    @Column(name = "inputEI")
+    private String EI;
+    @Column(name = "inputNS")
+    private String NS;
+    @Column(name = "inputFT")
+    private String FT;
+    @Column(name = "inputPJ")
+    private String PJ;
+
+
+
     private String mbtiSum;
 
     public void setUser(User user){
@@ -129,8 +141,7 @@ public class Input {
             }
         }
 
-       this.setMbtiSum(mbtiSum);
-
+        this.setMbtiSum(mbtiSum);
     }
 
 }

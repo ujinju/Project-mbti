@@ -4,11 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @Getter @Setter
 public class UserForm {
 
-    @NotEmpty(message = "학번을 입력하시오.")
+    @NotNull(message = "학번을 입력하시오.")
     private int studentId;
 
     @NotEmpty(message = "학과를 선택하시오.")

@@ -38,6 +38,7 @@ public class UserController {
         user.setMajor(form.getMajor());
 
         userService.login(user);
-        return "redirect:/";
+        //return "redirect:/";
+        return "input/createInputEIForm";
     }
 }
