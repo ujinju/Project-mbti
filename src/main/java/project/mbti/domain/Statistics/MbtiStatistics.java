@@ -23,6 +23,4 @@ public class MbtiStatistics extends Input {
     @OneToMany(mappedBy = "mbtiStatistics", cascade = CascadeType.ALL)
     private List<Input> inputs = new ArrayList<>();
 
-
-
 }

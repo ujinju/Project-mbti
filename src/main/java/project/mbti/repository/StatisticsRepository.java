@@ -14,7 +14,7 @@ public class StatisticsRepository {
     private final EntityManager em;
 
     //mbti 전체 찾음 ( 찾아서 통계 내야 하니까 )
-    public List<MbtiStatistics> findAll() {
+    public List<MbtiStatistics> findAllMbti() {
         return em.createQuery("select m from MbtiStatistics m", MbtiStatistics.class)
                 .getResultList();
     }

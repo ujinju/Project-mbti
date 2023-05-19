@@ -27,4 +27,5 @@ public class InputForm {
     private TendencyStatus tendencyStatus;
 
     private String mbtiSum;
+
 }

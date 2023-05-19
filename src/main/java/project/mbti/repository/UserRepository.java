@@ -21,7 +21,7 @@ public class UserRepository {
         return em.find(User.class, id);
     }
 
-    public List<User> findAll(Long id){
+    public List<User> findAll(){
         return em.createQuery("select u from User u", User.class)
                 .getResultList();
     }

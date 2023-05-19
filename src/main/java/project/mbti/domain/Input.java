@@ -63,76 +63,106 @@ public class Input {
 
     public String getMbti() {
         if (getTendencyStatus() == tendencyStatus.E) {
-            mbtiSum += getTendencyStatus();
+            //mbtiSum += getTendencyStatus();
+            mbtiSum += tendencyStatus.toString();
             if (getTendencyStatus() == tendencyStatus.N) {
-                mbtiSum += getTendencyStatus();
+                //mbtiSum += getTendencyStatus();
+                mbtiSum += tendencyStatus.toString();
                 if (getTendencyStatus() == tendencyStatus.T) {
-                    mbtiSum += getTendencyStatus();
+                    //mbtiSum += getTendencyStatus();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 } else {
-                    mbtiSum += getTf();
+                    //mbtiSum += getTf();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 }
             } else {
-                mbtiSum += getNs();
+                //mbtiSum += getNs();
+                mbtiSum += tendencyStatus.toString();
                 if (getTendencyStatus() == tendencyStatus.T) {
-                    mbtiSum += getTendencyStatus();
+                    //mbtiSum += getTendencyStatus();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 } else {
-                    mbtiSum += getTendencyStatus();
+                    //mbtiSum += getTendencyStatus();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 }
             }
         } else {
-            mbtiSum += getEi();
+            //mbtiSum += getEi();
+            mbtiSum += tendencyStatus.toString();
             if (getTendencyStatus() == tendencyStatus.N) {
-                mbtiSum += getTendencyStatus();
+                //mbtiSum += getTendencyStatus();
+                mbtiSum += tendencyStatus.toString();
                 if (getTendencyStatus() == tendencyStatus.T) {
-                    mbtiSum += getTendencyStatus();
+                    //mbtiSum += getTendencyStatus();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 } else {
-                    mbtiSum += getTendencyStatus();
+                    //mbtiSum += getTendencyStatus();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 }
             } else {
-                mbtiSum += getTendencyStatus();
+                //mbtiSum += getTendencyStatus();
+                mbtiSum += tendencyStatus.toString();
                 if (getTendencyStatus() == tendencyStatus.T) {
-                    mbtiSum += getTf();
+                    //mbtiSum += getTf();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 } else {
-                    mbtiSum += getTendencyStatus();
+                    //mbtiSum += getTendencyStatus();
+                    mbtiSum += tendencyStatus.toString();
                     if (getTendencyStatus() == tendencyStatus.P) {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     } else {
-                        mbtiSum += getTendencyStatus();
+                        //mbtiSum += getTendencyStatus();
+                        mbtiSum += tendencyStatus.toString();
                     }
                 }
             }
