@@ -22,7 +22,7 @@ public class InputService {
 
 
     private void validateDuplicateUser(Input input){
-        List<Input> findMbti = inputRepository.findBySumMbti(input.getMbtiSum());
+        List<Input> findMbti = inputRepository.findByMbtiSum(input.getMbtiSum());
         if(!findMbti.isEmpty()){
             throw new IllegalStateException("이미 MBTI를 입력하였습니다.");
         }
