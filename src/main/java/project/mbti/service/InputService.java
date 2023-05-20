@@ -20,12 +20,23 @@ public class InputService {
 
     private final InputRepository inputRepository;
 
+    public void combinationTendency(){
 
-    private void validateDuplicateUser(Input input){
-        List<Input> findMbti = inputRepository.findByMbtiSum(input.getMbtiSum());
-        if(!findMbti.isEmpty()){
-            throw new IllegalStateException("이미 MBTI를 입력하였습니다.");
-        }
     }
+
+    public void saveMbtiSum(String mbtiSum) {
+        Input input = new Input();
+        input.setMbtiSum(mbtiSum);
+        inputRepository.save(input);
+    }
+
+//    private void validateDuplicateUser(Input input){
+//        List<Input> findMbti = inputRepository.findByMbtiSum(input.getMbtiSum());
+//        if(!findMbti.isEmpty()){
+//            throw new IllegalStateException("이미 MBTI를 입력하였습니다.");
+//        }
+//    }
+
+
 
 }
