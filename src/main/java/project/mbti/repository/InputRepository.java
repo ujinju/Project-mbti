@@ -27,6 +27,29 @@ public class InputRepository {
         em.persist(input);
     }
 
+    public List<Input> findEI(TendencyStatus tendencyStatus) {
+        return em.createQuery("select i from Input i where i.tendencyStatus = :status")
+                .setParameter("status", tendencyStatus)
+                .getResultList();
+    }
+
+    public List<Input> findNS(TendencyStatus tendencyStatus) {
+        return em.createQuery("select i from Input i where i.tendencyStatus = :status")
+                .setParameter("status", tendencyStatus)
+                .getResultList();
+    }
+
+    public List<Input> findTF(TendencyStatus tendencyStatus) {
+        return em.createQuery("select i from Input i where i.tendencyStatus = :status")
+                .setParameter("status", tendencyStatus)
+                .getResultList();
+    }
+
+    public List<Input> findPJ(TendencyStatus tendencyStatus) {
+        return em.createQuery("select i from Input i where i.tendencyStatus = :status")
+                .setParameter("status", tendencyStatus)
+                .getResultList();
+    }
 
 
     public List<Input> findByMbtiSum(String mbtiSum){
